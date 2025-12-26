@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+    //Erp:10409 Bipin Pandey
     //Practical 6 : Q.3.ATM Pin Authentication//
     int pin;
     int attempts=0;
@@ -22,3 +23,10 @@ int main(){
     }
     return 0;
 }
+//enter your 4-digit ATM Pin :5
+//Pin is incorrect. Attempts left : 2
+//enter your 4-digit ATM Pin :1236 
+//Pin is incorrect. Attempts left : 1
+//enter your 4-digit ATM Pin :12254
+//Pin is incorrect. Attempts left : 0
+//Maximum attempts reached. ATM card blocked.

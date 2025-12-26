@@ -1,5 +1,6 @@
 #include<stdio.h>
 //Practical 8: Q.1. write function sumOfDigits that taken as input and return sum of its digits//
+//Erp:10409 Bipin Pandey
 int sumOfDigits(int n){
     int sum=0;
     while(n!=0){
@@ -17,3 +18,5 @@ int main(){
     return 0;
     
 }
+//5
+//5

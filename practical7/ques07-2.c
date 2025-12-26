@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main(){
-    //Practical 7 : Q.1. Diamond of length 2n-1//
+    //Erp:10409 Bipin Pandey
+    //Practical 7 : Q.2.Hourglass of length 2n-1//
     int n;
     scanf("%d",&n);
-    for(int i=1;i<=n;i++){
+    for(int i=n;i>=1;i--){
         for(int j=1;j<=n-i;j++){
             printf(" ");
         }
@@ -12,7 +13,7 @@ int main(){
         }
         printf("\n");
     }
-    for(int i=n-1;i>=1;i--){
+    for(int i=2;i<=n;i++){
         for(int j=1;j<=n-i;j++){
             printf(" ");
         }
@@ -23,3 +24,13 @@ int main(){
     }
     return 0;
 }
+//5
+//*********
+//*******
+// *****
+//  ***
+//   *
+//  ***
+//  *****
+// *******
+//*********

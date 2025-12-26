@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+    //Erp:10409 Bipin pandey
     //Practical 6 : Q.2 sum of even number using continue.//
     int n;
     printf("enter a number:");
@@ -13,3 +14,5 @@ int main(){
     return 0;
 
 }
+//enter a number:4
+//sum of even number from 1 to 4 is 6
