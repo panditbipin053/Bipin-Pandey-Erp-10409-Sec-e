@@ -28,3 +28,6 @@ int main() {
 
     return 0;
 }
+//Enter number of elements: 5
+//Enter array elements:
+//10 20 30 40 50
